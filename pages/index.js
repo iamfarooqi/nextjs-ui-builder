@@ -1,10 +1,10 @@
-import { ContentProviderGrapes } from 'destack'
+import { ContentProvider } from 'destack'
 import 'grapesjs/dist/css/grapes.min.css'
 
 
 export default function Page(props) {
     return (
         <div style={{ height: '100%' }}>
-            <ContentProviderGrapes {...props} showEditorInProd={true} />
+            <ContentProvider {...props} showEditorInProd={true} />
         </div>)
 }
